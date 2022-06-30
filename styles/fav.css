@@ -1,0 +1,65 @@
+*{
+    font-family: "BBSans Regular", Helvetica, Arial, sans-serif;
+}
+#poster{
+    width: auto;
+    height:300px;
+    display: flex;
+    background-image: url("https://www.bobbibrown.in/media/export/cms/mpp/SS20/MPP-Category-Header-BestSellers-PC_@2x.jpg");
+    /* border: 2px solid; */
+    background-size: cover;
+     /* margin: -8px; */
+    justify-content: center;
+     align-items: center;
+     font-size: 50px;
+     color: white;
+    width: 100%;
+}
+#home{
+    margin-left:20px ;
+}
+#home > a{
+    text-decoration: none;
+    color: black;
+}
+#cont1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#cont2{
+    
+    text-align: end;
+    margin-right: 30px;
+}
+#select{
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+#products{
+    width: 85%;
+    margin: auto;
+    /* border:1px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto);
+    /* margin: 150px; */
+    margin-top: 20px;
+    gap: 100px;
+}
+.item{
+    text-align: center;
+  
+}
+.item > img{
+  width:100%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    
+}

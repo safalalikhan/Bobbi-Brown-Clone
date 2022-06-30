@@ -1,0 +1,163 @@
+* {
+    font-family: "BBSans Regular", Helvetica, Arial, sans-serif;
+  }
+#container{
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+#left_cont{
+    width: 60%;
+    /* border: 1px solid red; */
+    /* margin-top:30px ; */
+    /* margin-bottom: 150px; */
+}
+#right_cont{
+    margin-top: 100px;
+}
+#div_1{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#div_1 + button,#div_10>button{
+    /* padding:10px 30px 10px 30px; */
+    background-color: #ff4661;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#div_2{
+    height:70px ;
+    margin-top: 25px;
+    background-color: #eff0f0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8d9898;
+    border-top: 1px solid #8f9d9d;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#div_3{
+    font-size: 20px;
+    line-height: 8px;
+}
+#div_3 > label:nth-child(2){
+    font-weight: bold;
+}
+#div_3 > a:nth-child(4),#div_10>a{
+
+    color: gray;
+}
+#div_4{
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+}
+#address_div{
+    margin-top: 15px;
+    border: 1px solid;
+  padding-bottom: 30px;
+}
+#div_5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#div_6,#div_8{
+    width: 95%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+#div_6 >input,#div_8>input{
+    width: 97%;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 18px;
+}
+#div_7{
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 5px;
+    margin-top: 25px;
+}
+#div_9,#div_10{
+    font-size: 21px;
+    border-bottom: 1px solid;
+    border-top: 0.5px solid ;
+    
+}
+#div_11,#div_16,#div_19{
+    background-color: #eff0f0;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#div_12,#div_17,#div_20{
+    font-size: 24px;
+    margin: 20px;
+    margin-top: 65px;
+    border-bottom: 1px solid;
+    padding-top: 20px;
+}
+#div_13, #div_14,#div_15{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid; */
+    margin-top: -20px;
+    margin-bottom: -10px;
+    
+}
+#div_18>a{
+    color: #f05d8e;
+    font-weight: bold;
+}
+#offer_code_apply{
+    margin-left: 20px;
+    width: 80%;
+    padding: 10px;
+}
+#div_19 > button{
+    margin-left: 20px;
+    padding: 8px;
+    width: 30%;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+   font-weight: bold;
+}
+#div_19 > p{
+    margin-left: 20px;
+}
+#div_18 p{
+    margin-left: 20px;
+}
+/* #checkout1{
+    cursor: pointer;
+}
+#checkout2{
+    cursor: pointer;
+} */
+
+.non{
+    text-decoration: none;
+    color: black;
+}
+.none{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,334 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.text-white {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#btn {
+    width: 100%;
+    height: 40px;
+    background-color: #343536;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  
+}
+.text {
+    margin: auto;
+}
+.text-white {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#close {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+
+.active, .dot:hover {
+    background-color: #343536!important;
+}
+.clr{
+    /* border: solid 1px red; */
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.div1{
+    /* border: solid 1px black; */
+    width: 72%;
+    height: 80px;
+    /* display: flex; */
+    margin: auto;
+}
+.div1 nav{
+    /* border: solid 1px red; */
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.deco{
+    text-decoration: none;
+    color: black;
+}
+
+.div2{
+    /* border: solid 1px black; */
+    height: auto;
+    width: 72%;
+    margin: auto;
+    /* margin-top: 20px; */
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    /* margin-right: 10px; */
+}
+.btn1>a{
+    text-decoration: none;
+    color: white;
+}
+.div2 .divA{
+    /* border: solid 1px red; */
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+}
+.div2 .divB{
+    /* border: solid 1px red; */
+    width: 400px;
+    height: auto;
+    margin-top: -30px;
+}
+.hor{
+    margin-top: 0px;
+}
+
+.divA h3{
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+    /* text-indent: 20px; */
+    letter-spacing: .2em;
+    /* background-color: #eff0f0; */
+}
+.divA .diva{
+    background-color: #eff0f0;;
+    border-top: solid 1px #bbbbb9;
+    border-bottom: solid 1px #bbbbb9;
+    padding: 15px;
+    /* height: 40px; */
+}
+.divb{
+    background-color: #eff0f0;;
+    border-top: solid 1px #bbbbb9;
+    border-bottom: solid 1px #bbbbb9;
+    padding: 15px;
+    /* height: 40px; */
+}
+
+.colo{
+    background-color: none;
+    border-top: solid 1px #bbbbb9;
+    border-bottom: solid 1px #bbbbb9;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+#address,#address1{
+    border: solid 1px black;
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+}
+.hr{
+    margin: 0px;
+    padding: 0px;
+}
+
+#right_cont{
+    margin-top: 100px;
+}
+#div_11,#div_16,#div_19{
+    background-color: #eff0f0;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+#div_12,#div_17,#div_20{
+    font-size: 14px;
+    margin: 20px;
+    border-bottom: 1px solid;
+    padding-top: 20px;
+}
+#div_13, #div_14{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    /* margin-top: -20px; */
+    /* margin-bottom: -10px; */
+    
+}
+#div_15{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    /* border: 1px solid red; */
+    /* margin-top: -20px;   */
+    /* margin-bottom: -10px; */
+
+}
+#div_18>a{
+    color: #f05d8e;
+    font-weight: bold;
+}
+#offer_code_apply{
+    margin-left: 20px;
+    width: 80%;
+    padding: 10px;
+}
+#div_19 > button{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 30%;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+   font-weight: bold;
+}
+#div_19 > p{
+    margin-left: 20px;
+}
+#div_18  p{
+    margin-left: 20px;
+}
+#div_15  h3{
+    font-size: 20px;
+    margin-left: 40px;
+}
+#div_14  h3{
+    font-size: 20px;
+}
+#div_13  h3{
+    font-size: 20px;
+}
+#noOfItems{
+    margin-left: 20px;
+}
+
+
+
+
+/* payment css */
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  .addressdetails{
+      padding: 20px;
+  }
+  .addressdetails *{
+      margin:5px 0 ;
+
+  }
+  

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+#slideshow {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#gotta {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+}
+#options_3 {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 14px;
+  margin: 30px auto;
+}
+#options_3 > div {
+  padding: 10px 70px;
+  border-bottom: 0.5px solid black;
+  cursor: pointer;
+}
+#banner_1 > img,
+#banner_2 > img,
+#banner_3 > img {
+  max-width: 100%;
+  margin-top: 50px;
+}
+#blackbox {
+  margin-left: 30px;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+}
+#imageright {
+  width: 50%;
+}
+#imageright > img {
+  width: 100%;
+}
+#banner_1,
+#banner_2,
+#banner_3 {
+  margin: 20px auto;
+}
+#banner_4 {
+  display: flex;
+  margin: 20px auto;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+#products_last {
+  padding: 0px 10px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  column-gap: 1.25%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+#products_last img {
+  width: 100%;
+}
+.downlink {
+  text-decoration: underline;
+}
+.downlink:hover {
+  cursor: pointer;
+  color: red;
+}
+.banner {
+  position: relative;
+  text-align: left;
+  color: black;
+}
+.banner_text {
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 30%;
+}
+.banner_text p {
+  margin: 5px;
+  line-height: normal;
+}
+#container button {
+  cursor: pointer;
+  width: 175px;
+  height: 30px;
+  margin-top: 10px;
+}
+#container button:hover {
+  transform: scale(1.1);
+}
+.banner_text > button {
+  color: white;
+  background-color: black;
+}
+#products_last p {
+  line-height: 25px;
+}
+#scroll_side {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 5%;
+  text-align: center;
+}
+#scroll_side button {
+  color: white;
+  background-color: black;
+  font-weight: 500;
+}
+
+#scroll_side img {
+  width: 100%;
+}

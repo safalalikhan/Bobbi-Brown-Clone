@@ -1,2 +1,3 @@
-# Bobbi-Brown-Clone
-Clone of Bobbi Brown Website, the premium cosmetics brand
+# Bobbi-brown-clone
+
+### Deploy Link -> [`Check here`](https://bobbibrowncosmetics.netlify.app/)

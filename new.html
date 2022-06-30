@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles/new.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/favicon-32x32.png"
+      type="icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/f8625dd6a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <title>Cosmetics | Bobbi Brown Cosmetics</title>
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+
+    <body>
+      <div id="btn">
+          <div class="text">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active" id="clr">
+                          <p class="text-white">
+                              Get 15% off your first order plus free shipping everyday when you join BB Access
+                          </p>
+                      </div>
+                      <div class="carousel-item">
+                          <p class="text-white">May Beauty Event: 30% off Vitamin Enriched Eye Base and 40% off select
+                              glow.</p>
+                      </div>
+  
+                  </div>
+              </div>
+  
+          </div>
+          <button id='close'>x</button>
+      </div>
+
+    <div class="contain">
+      <img
+        src="https://www.bobbibrown.in/media/export/cms/Homepage/MPP-Category-Header-PC-LipGloss_2x.jpg"
+        alt=""
+        class="top-img"
+      />
+      <div class="centered">WHAT'S NEW</div>
+    </div>
+
+    <nav style="--bs-breadcrumb-divider: ''" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a class="home" id="home" href="#">Home</a>
+        </li>
+        <li class="breadcrumb-item" id="total"></li>
+      </ol>
+    </nav>
+    <div class="dropdown">
+      <select class="btn" id="select">
+        <option class="dropdown-item" value="sort" href="#">SORT BY</option>
+        <option class="dropdown-item" value="best" href="#">
+          BEST SELLERS
+        </option>
+        <option class="dropdown-item" value="plth" href="#">
+          PRICE (LOW TO HIGH)
+        </option>
+        <option class="dropdown-item" value="phtl" href="#">
+          PRICE (HIGH TO LOW)
+        </option>
+        <option class="dropdown-item" value="rhtl" href="#">
+          HIGHEST RATED
+        </option>
+      </select>
+    </div>
+
+    <div id="show"></div>
+
+    <img
+      onclick="topFunction()"
+      id="myBtn"
+      src="https://www.bobbibrowncosmetics.com/media/images/global/icon-backtotop.png"
+      alt=""
+    />
+
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script src="./scripts/new.js"></script>
+<script type="module" src="./scripts/index.js"></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+></script>

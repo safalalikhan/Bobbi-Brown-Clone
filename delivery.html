@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="icon"
+    href="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/favicon-32x32.png"
+    type="icon"
+  />
+  <script
+    src="https://kit.fontawesome.com/f8625dd6a2.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+
+    <title>Shiping information</title>
+
+    <link rel="stylesheet" href="styles/delivery.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="container">
+        <div id="left_cont">
+            <div id="div_1">
+                <label for="">1. <a class="non" href="delivery.html"> Delivery & Options</a></label>
+                <label for="">2. <a class="non" href="billing.html"> Billing</a></label>
+                <label for="">3. <a class="non" href="#"> Order Confirmation</a></label>
+            </div>
+            <button id="checkout1" onclick="shippingAddress()"><a class="none" href="billing.html"> CONTINUE CHECKOUT</a></button>
+            <div id="div_2">
+                <p>DELIVERY</p>
+            </div>
+           <div id="div_3">
+            <p>Delivery Method</p>
+            <label for="">Standard :</label>
+            <label for="">(1-4 Business Days)</label>
+            <a href=""><p>Delivery Information</p></a>
+            <h3>DELIVERY ADDRESS</h3>
+           </div>
+           <div id="div_4">
+            <div id="address_div">
+                <div id="div_5">
+                 <!-- <input type="radio"> -->
+                 <h4><input type="radio">Ms</h4>
+                 <!-- <input type="radio"> -->
+                 <h4 id="mr"><input  type="radio">Mr</h4>
+                </div>
+               <div id="div_6">
+                <input type="text" name="" id="fname" placeholder="First Name"><br>
+                <input type="text" name="" id="lname" placeholder="Last Name"><br>
+                <input type="text" name="" id="sname" placeholder="Street Name"><br>
+                <input type="number" name="" id="hnumber" placeholder="House Number"><br>
+                <input type="text" name="" id="pcode" placeholder="Postal code"><br>
+                <input type="text" name="" id="city" placeholder="City"><br>
+                <input type="text" name="" id="state" placeholder="State"><br>
+               </div>
+               <div id="div_7">
+                <p>Location:</p>
+                <p>India</p>
+                <p>* Phone: one phone number is required</p>
+               </div>
+               <div id="div_8">
+                   
+                <input type="=number" name="" id="pnumber" placeholder="Mobile Number"><br>
+                <input type="number" name="" id="hnumber" placeholder="Home Number">
+               </div>
+            </div>
+            <h3>BILLING ADDRESS</h3>
+           </div>
+           <div id="billing_address">
+            <h4>SIGN UP FOR EMAILS</h4>
+           </div>
+           <div id="div_9">
+               <p>Entitles you to the inside info on special offers and samples, plus, you'll be the first to know about the newest products and latest looks!</p>
+               <input type="radio" name="" id="">
+               <label for="">Yes ! I would like to receive the Bobbi Brown Newsletter</label>
+               <p>In providing your email address you are agreeing to receive email communication from Bobbi Brown
+                Online</p>
+                <h4>WOULD YOU LIKE TO RECEIVE PROMOTIONS VIA SMS?</h4>
+              
+           </div>
+           <div id="div_10">
+            <input type="radio" name="" id="">
+            <label for="">In providing your mobile phone number you are agreeing to receive mobile phone communication
+                from Bobbi Brown Online. If you do not Wish to receive such communication via your mobile phone,
+                please un-tick this box.</label>
+                <a href=""><p>Review our data privacy notice</p></a>
+                <button id="checkout2" onclick="shippingAddress()"><a class="none" href="billing.html"> CONTINUE CHECKOUT</a></button>
+           </div>
+        </div>
+        <div id="right_cont">
+            <div id="div_11">
+                <div id="div_12">
+                    <p>ORDER SUMMARY</p>
+                </div>
+                <p id="noOfItems"> </p>
+                <div id="div_13">
+                    <p>SUB TOTAL</p>
+                    <h3 id="subTotal"></h3>
+                </div>
+                <div id="div_14">
+                    <p>STANDARD SHIPPING</p>
+                    <h3>0.00</h3>
+                </div>
+                <div id="div_15">
+                    <p >ESTIMATED TOTAL (MRP
+                        INCLUSIVE OF ALL TAXES)</p>
+                        <h3 id="estimatedBill"></h3>
+                </div>
+            </div>
+            <div id="div_16">
+                <div id="div_17">
+                    <p>ADDITIONAL INFO</p>
+                </div>
+                <div id="div_18">
+                    <a href=""><p>EMAIL US</p></a>
+                    <a href=""><p>DELIVERY INFORMATION</p></a>
+                    <a href=""><p>RETURNS</p></a>
+                    <a href=""><p>MAXIMUM PURCHASE POLICY</p></a>
+                </div>
+            </div>
+            <div id="div_19">
+                <div id="div_20">
+                    <p>OFFER CODE</p>
+                </div>
+                <input id="offer_code_apply" type="text" name="" id="" placeholder="OFFER CODE"><br>
+
+                <button>APPLY</button>
+                <p>One offer code per order</p>
+               
+            </div>
+         
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="scripts/delivery.js" ></script>
+<script type="module" src="./scripts/index.js"></script>

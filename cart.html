@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/favicon-32x32.png"
+      type="icon"
+    />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <title>Cosmetics | Bobbi Brown Cosmetics</title>
+    <script
+      src="https://kit.fontawesome.com/8a4521f153.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div id="cont1">
+        <div id="head">
+          <p>SHOPPING CART</p>
+          <p></p>
+          <p id="noOfProduct"></p>
+        </div>
+        <div id="space">
+          <div></div>
+        </div>
+        <div id="compli_box">
+          <div id="compliment">
+            <div><label>COMPLIMENTARY SAMPLES</label></div>
+            <div>
+              <i id="compli_control" class="fa-solid fa-chevron-up"></i>
+            </div>
+          </div>
+          <div id="compliment-box">
+            <p>We'd like to offer you the following samples</p>
+            <div id="compliProd">
+              <i id="forward" class="fa-solid fa-angle-left"></i>
+              <div id="box-compli-prod"></div>
+              <i id="backward" class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div id="products"></div>
+      </div>
+      <div id="cont2">
+        <div id="check">
+          <button><a href="delivery.html">CHECKOUT</a></button>
+        </div>
+        <div id=" summary">
+          <div id="a">
+            <label for="">ORDER SUMMARY</label>
+            <i id="hide" class="fa-solid fa-angle-up"></i>
+          </div>
+          <div id="temp">
+            <div id="b">
+              <label for="">SUB-TOTAL</label>
+              <label id="subtotal" for=""></label>
+            </div>
+            <div id="c">
+              <label for="">DELIVERY-METHOD</label>
+              <label for="">0.00</label>
+            </div>
+            <div id="stddiv">
+              <input
+                type="none"
+                name=""
+                id="std"
+                placeholder="Standard delivery"
+              />
+            </div>
+            <div id="line"></div>
+
+            <div id="estimate">
+              <label for="">ESTIMATED TOTAL (MRP INCLUSIVE OF ALL TAXES)</label>
+              <label id="estimated_mrp" for=""></label>
+            </div>
+          </div>
+        </div>
+        <div id="offer">
+          <div id="d">
+            <label for="">OFFER COUPON</label>
+            <i id="hide1" class="fa-solid fa-angle-up"></i>
+          </div>
+          <div id="coupon-code">
+            <input type="text" name="" id="coupon" placeholder="OFFER CODE" />
+            <button>APPLY</button>
+          </div>
+        </div>
+        <div id="additional"></div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./scripts/cart.js" type="module"></script>
+<script type="module" src="./scripts/index.js"></script>

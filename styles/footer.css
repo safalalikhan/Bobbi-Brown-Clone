@@ -1,0 +1,200 @@
+
+#footer-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  padding: 30px 20px;
+  margin: 10px 0px;
+}
+
+#footer-list ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+#footer-list ul > li {
+  margin: 5px 0px;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+#footer-list p > a:hover {
+  color: rgb(250, 40, 75);
+}
+
+#fl-i-1,
+#fl-i-2 {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  width: 60%;
+  margin: 5px 0px;
+  border: 1px solid white;
+  appearance: none;
+}
+
+#footer button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 5px 0px;
+}
+
+#footer input + p {
+  font-size: 14px;
+  display: none;
+  padding: 0;
+}
+
+#footer select {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  width: 250px;
+  border: 1px solid white;
+  margin: 10px 0px;
+  /* appearance: none; */
+}
+
+#footer select > option {
+  background-color: #fff;
+  color: black;
+  width: 250px;
+}
+
+.fl-icons i {
+  font-size: 30px;
+  margin: 20px 0px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.fsh {
+  margin: 0;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+#footer-creds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 0px;
+  margin: 10px 0px;
+  border-top: 1px solid gray;
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+}
+
+#fc-cr {
+  margin-top: 10px;
+}
+
+#fc-tc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px 10%;
+  width: 80%;
+}
+
+#fc-tc a {
+  color: gray;
+}
+
+#fc-tc a:hover {
+  color: gray;
+}
+
+#fc-tc-img {
+  width: 52px;
+  height: 20px;
+  margin: 25px 0px;
+}
+
+#fc-tc-imgdiv {
+  display: flex;
+  justify-content: end;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  #footer {
+    margin-left: 0px;
+  }
+  #footer-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  #footer-list ul,
+  #footer-list p,
+  #footer-list button,
+  #footer-list p > a,
+  #footer-list select > option,
+  #footer-list select,
+  #footer-list input + p {
+    font-size: 16px;
+  }
+  #footer-list ul > li {
+    margin: 10px 0px;
+  }
+  #footer-list input {
+    width: 80%;
+  }
+  #footer-list .fl-icons i {
+    font-size: 30px;
+    margin: 20px 0px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  #footer-list .fsh {
+    padding: 20px 0px;
+    font-size: 18px;
+  }
+  #footer-creds {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 0px;
+    border-top: 1px solid gray;
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+    text-align: center;
+  }
+  #fc-cr {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #fc-tc {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    margin: 0px 10%;
+  }
+  #fc-tc a {
+    color: gray;
+  }
+  #fc-tc a:hover {
+    color: gray;
+  }
+  #fc-tc-img {
+    width: 70px;
+    height: 30px;
+  }
+  #fc-tc-imgdiv {
+    display: flex;
+    justify-content: center;
+  }
+}
